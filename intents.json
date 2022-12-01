@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "disturbance",
+      "patterns": [
+        "I have a line problem",
+        "My Internet is not working",
+        "the ADSL isn't working",
+        "My phone line stopped"
+      ],
+      "responses": [
+        "fill the form in contact us section with your line problem and we'll answer soon, for more help call 1200",
+        "You have to fill our form to receive your complaint and call 1200 for more help"
+      ]
+    },
+    {
+      "tag": "cancelling",
+      "patterns": [
+        "i want to cancel my line",
+        "shutting the phone line",
+        "how can i get my line phone stopping"
+      ],
+      "responses": [
+        "you can cancell your line any time just fill the form in contact us section",
+        "for cancelling your line you can either fill our form up there or call 1200"
+      ]
+    },
+    {
+      "tag": "quality",
+      "patterns": [
+        "I have a poor internet quality",
+        "the internet speed is too low",
+        "slow performance",
+        "ADSL mbps is lower than i what i'm paying for"
+      ],
+      "responses": [
+        "Sorry for the low performance just contact us and we will help",
+        "I hope in the next few days we fix this problem call 1200 or fill our form"
+      ]
+    },
+    {
+      "tag": "lateService",
+      "patterns": [
+        "it is been a month since i complaint and no answer yet",
+        "why the disturbance isn't fix it yet",
+        "still no answer for my problem",
+        "my internet issure isn't fixed yet"
+      ],
+      "responses": [
+        "Sorry for the late call 1200 to insist ",
+        "We'll try sooner to fix the issue, call 1200 for more info"
+      ]
+    },
+    {
+      "tag": "transfer",
+      "patterns": [
+        "I will move to a new house i want to transfer my line",
+        "my address is changed",
+        "line transfer"
+      ],
+      "responses": [
+        "Congrats for the new house, fill our form and we will transfer your line ASAP",
+        "Yeah any time for transferring contact us or call 1200"
+      ]
+    }
+  ]
+}
